@@ -5,10 +5,11 @@
        
         <div class="container con">
             <div></div>
-      
+            <br>
+        {% for d in detail %}
          <ul>
-           <li> {{detail}}</li>
+           <li> {{d}}</li>
          </ul>
-       
+        {% endfor %}
       </div>
         {% endblock content %}

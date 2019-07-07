@@ -1,9 +1,20 @@
 {% extends 'website/base.html' %}
 {% load static%}
 {% block content %}
-    <div class="jumbotron jumbotron-fluid"  >
+    <div class="jumbotron jumbotron-fluid" style="background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('{% static "website/images/2.jpg" %}')"; >
             <span class="display-4"  id="typed"></span>
-               
+            <script type="text/javascript" src="{% static 'website/javascript/typed.js' %} "></script>
+            <script>
+                var typed = new Typed("#typed", {
+                    strings: [
+                        "Welcome ! ^1000\n \n Let's Dig into History",
+                    ],
+                    typeSpeed: 50,
+                    backSpeed: 50,
+                    loop: true,
+                    smartBackspace: true,
+                });
+              </script>           
     </div>
 
        
