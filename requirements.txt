@@ -23,5 +23,5 @@ soupsieve==1.9.2
 sqlparse==0.3.0
 textblob==0.15.3
 tweepy==3.7.0
-urllib3==1.24.3
+urllib3==1.26.5
 virtualenv==16.6.1
